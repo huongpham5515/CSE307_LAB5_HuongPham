@@ -1,0 +1,178 @@
+*{
+   margin:0;
+}
+
+div.icon{
+   float: right;
+}
+div.icon a:hover{
+   color: #900;
+}
+button.btn-success{
+   width: 180px;
+   height: 45px;
+   border: none;
+   background-color: green;
+   color: white;
+   border-radius: 20px;
+}
+div#me button.btn-success{
+   width: 100px;
+   height: 45px;
+}
+
+nav.id{
+   clear: both;
+   height: 38px;
+}
+div#me{
+   padding-right: 0;
+   float: right;
+   text-decoration: none;
+   margin-left: 280px;  
+}
+article#body{
+   border: #E2DFDF;
+   clear: both;
+   margin: 5px 2px 5px 2px;
+   display: table-row;
+   background-color: #E2DFDF;
+   box-shadow: 1px ;
+}
+footer {
+   background-color:#51BE10 ;
+}
+aside#left, aside#right, section{
+   display: table-cell;
+   vertical-align: top;
+}
+aside#left{
+   width: 20%;
+}
+aside#right{
+   width: 20%;
+}
+div#subject{
+   box-sizing: border-box;
+    width: 230px;
+    height: 290px;
+    border: 2px solid #2AA4C9;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+div#publishers{
+   box-sizing: border-box;
+   width: 230px;
+   height: 270px;
+   border: 2px solid #2AA4C9;
+   margin-top: 60px;
+   margin-right: 5px;
+   border-top-right-radius: 3px;
+   border-top-left-radius: 3px;
+}
+div.asideleft p{
+   background-color: #2AA4C9;
+   text-align: center;
+   color: white;
+   padding: 5px;
+   border-top-right-radius: 2px;
+   border-top-left-radius: 2px;
+}
+div.asideleft ul li a:hover{
+  color: #D22912;
+}
+div#bestseller{
+   width: 80%;
+   height: 450px;
+   margin: 20%;
+   text-align: center;
+   border: 2px solid #2AA4C9;
+   margin-top: 10px;
+   border-top-right-radius: 3px;
+   border-top-left-radius: 3px;
+}
+img.image{
+   width: 70px;
+   height: 100px;
+}
+div#link{
+   box-sizing: border-box;
+    width: 80%;
+    height: 90px;
+    margin-top: 20px;
+    margin: 20%;
+    text-align: center;
+    border: 2px solid #2AA4C9;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+select.box{
+   margin: 2px;
+}
+div#statistic{
+   box-sizing: border-box;
+    width: 80%;
+    margin: 20%;
+    background-color:#AEF4FC;
+    color: red;
+    border: 2px solid #2AA4C9;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+p#bo, p#bor, p#bord{
+   background-color: #2AA4C9;
+   text-align: center;
+   color: white;
+   padding: 5px;
+   border-top-right-radius: 2px;
+   border-top-left-radius: 2px;
+}
+div.container{
+   margin-top: 20px;
+   display: flex;
+   flex-flow: row wrap; 
+   justify-content: space-around;
+   justify-items: left;
+   background-color: rgb(166, 211, 237);
+}
+table.body{
+   border: rgb(166, 211, 237);
+   margin-top: 20px;
+   margin-right: 43px;
+}
+th.header{
+   color: white;
+   font-size: 25px;
+   width: 90%;
+   text-align: center;
+   border: 2px solid rgb(44, 153, 186);
+   background-color: rgb(44, 153, 186);
+
+}
+img.photo{
+   margin: 20px;
+   width: 240px;
+   height: 300px;
+   margin-right: 150px;
+}
+button.datmua{
+   background-color: rgb(166, 211, 237);
+   border: 0px;
+}
+
+button.btn-primary{
+   margin-left: 30px;
+}
+td.text, a.link{
+   margin-right: 100px;
+   text-decoration: none;
+}
+div.card-body{
+   background-color: rgb(166, 211, 237);
+   border:none;
+}
+div.card-body p{
+   margin-left: 20px;
+}

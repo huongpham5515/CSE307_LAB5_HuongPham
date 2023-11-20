@@ -1,0 +1,181 @@
+*{
+    margin:0;
+}
+
+div.icon{
+    float: right;
+}
+div.icon a:hover{
+    color: #900;
+}
+nav.id ul li a:hover{
+    color: #900;
+    text-decoration: underline;
+}
+nav.id ul li a{
+    text-decoration: none;
+}
+nav.id{
+    clear: both;
+    background-color: #CBFEAD;
+    height: 31px;
+}
+nav.id ul li{
+    border-right: solid 2px #333;
+    display: inline;
+    padding: 0 10px;
+
+}
+nav.id ul{
+    border: 2px solid #CBFEAD;
+    height: 20px;
+    padding: 5px;
+}
+nav.id ul li.me{
+    border-right: none;
+    padding-right: 0;
+    float: right;
+}
+article#body{
+    border: #E2DFDF;
+    clear: both;
+    margin: 5px 2px 5px 2px;
+    display: table-row;
+    background-color: #E2DFDF;
+    box-shadow: 1px ;
+}
+footer p{
+    background-color:#51BE10 ;
+}
+aside#left, aside#right, section{
+    display: table-cell;
+    vertical-align: top;
+}
+aside#left{
+    width: 20%;
+}
+aside#right{
+    width: 20%;
+}
+div#subject{
+    box-sizing: border-box;
+    width: 230px;
+    height: 210px;
+    border: 2px solid #2AA4C9;
+    margin-top: 20px;
+    margin-right: 5px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+div#publishers{
+    box-sizing: border-box;
+    width: 230px;
+    height: 210px;
+    border: 2px solid #2AA4C9;
+    margin-top: 50px;
+    margin-right: 5px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+div.asideleft p{
+    background-color: #2AA4C9;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+ }
+ div.asideleft ul li a:hover{
+    color: #D22912;
+  }
+  div#bestseller{
+    width: 75%;
+    height: 400px;
+     margin: 22%;
+     text-align: center;
+     border: 2px solid #2AA4C9;
+     margin-top: 20px;
+     border-top-right-radius: 3px;
+     border-top-left-radius: 3px;
+  }
+  img.image{
+    width: 70px;
+    height: 100px;
+ }
+  div#link{
+    box-sizing: border-box;
+    width: 75%;
+    height: 80px;
+    margin-top: 10px;
+    margin: 22%;
+    text-align: center;
+    border: 2px solid #2AA4C9;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+ }
+  select.box{
+    margin: 15px;
+ }
+ div#statistic{
+    box-sizing: border-box;
+    width: 75%;
+    margin: 22%;
+    background-color:#AEF4FC;
+    color: red;
+    border: 2px solid #2AA4C9;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+ }
+ p#bo, p#bor, p#bord{
+    background-color: #2AA4C9;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+ }
+ section{
+    margin: 20%;
+ }
+ p.title{
+    background-color: #2AA4C9;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    border-top-right-radius:tt 2px;
+    border-top-left-radius: 2px;
+    width: 100%;
+ }
+ div .registration-box{
+    background-color: #B3ECF2;
+    width: 90%;
+    margin-block-start: 11px;
+    height: 30%;
+    border: 1px #7dcc4f dashed;
+ }
+ div.container{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-around;
+ }
+ label.label{
+    width: 130px;
+    display: inline-block;
+ }
+ fieldset.regis{
+    margin: 56px;
+ }
+ input.input, textarea, select#dob{
+  padding: 3px;
+  margin: 5px;
+ }
+ div .registration-box button{
+    border: none;
+    background-color: #2AA4C9;
+    color: white;
+    border: 1px #7dcc4f dashed;
+    padding: 5px;
+    margin-bottom: 10px ;
+ }
+

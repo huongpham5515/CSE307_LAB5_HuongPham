@@ -1,0 +1,27 @@
+body {
+    background-color: whitesmoke;
+}
+
+div.contact {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+div.contain {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.title p {
+    font-weight: bold;
+}

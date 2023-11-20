@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC BookStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "DetailStyle.css">
+</head>
+<body>
+    <header>
+        <div class="img" >
+            <img src="C:\Users\ADMIN\Downloads\img_Practice3\logoABCbook.png">
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-user"></i><a href="LAB2_Problem6d.html">Log in</a>
+            <a href="MemberRegistration.html">| Registration</a>
+            <i class="fa-solid fa-cart-shopping"></i><a href="null">Cart</a>
+        </div>
+    </header>
+
+    <nav class="id">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn-success" a href = "Homepage.html">HOME PAGE</button>
+                <button type="button" class="btn-success" a href = "Lab1_2_Problem5.html">INTRODUCTION</button>
+                <button type="button" class="btn-success" a href="#">CONTACT</button>
+                 <div class="btn-group dropdown">
+                        <button type="button" class="btn-success dropdown-toggle" data-bs-toggle="dropdown" data-toggle="dropdown" aria-expanded="false">
+                          BOOKS BY SUBJECT
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="NgoaiNgu">Foreign Language</a></li>
+                          <li><a class="dropdown-item" href="Congnghethongtin">Information Technology</a></li>
+                          <li><a class="dropdown-item" href="Luat">Law</a></li>
+                          <li><a class="dropdown-item" href="Vanhoc">Literature</a></li>
+                          <li><a class="dropdown-item" href="Khoahoc">Science and techonology</a></li>
+                          <li><a class="dropdown-item" href="Nongnghiep">Agriculture</a></li>
+                          <li><a class="dropdown-item" href="lichsudialy">History of geography</a></li>
+                          <li><a class="dropdown-item" href="kinhte">Economics</a></li>
+                          <li><a class="dropdown-item" href="nghethuatsong">Listen to the song</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn-success dropdown-toggle" data-bs-toggle="dropdown" data-toggle="dropdown" aria-expanded="false">
+                          BOOKS BY PUBLISHER
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="NXBTre">Young publisher</a></li>
+                            <li><a class="dropdown-item" href="NXBThongke">Statistic Publishing House</a></li>
+                            <li><a class="dropdown-item" href="Kimdong">Bronze Needle</a></li>
+                            <li><a class="dropdown-item" href="DHQuocgia">National University</a></li>
+                            <li><a class="dropdown-item" href="Vanhoanghethuat">Artistic craft culture</a></li>
+                            <li><a class="dropdown-item" href="Vanhoa">Culture</a></li>
+                            <li><a class="dropdown-item" href="laodongxahoi">Labor-Society</a></li>
+                            <li><a class="dropdown-item" href="khoahockythuat">Science & Engineering</a></li>
+                        </ul>
+                      </div>
+                <div id="me"><input type="text" placeholder="Enter the title of the book">
+                    <button type = "submit" class="btn btn-success" value="Find books">Find Book</div>
+            </div>
+        </nav>
+    <p>
+        <article id="body">
+            <aside id = "left">
+                <div class="asideleft">
+                <div id="subject">
+                    <p>BOOKS BY SUBJECT</p>
+                    <ul type = "square">
+                        <li><a href="Ngoai Ngu">Foreign Language</a></li>
+                        <li><a href="Congnghethongtin">Information Technology</a></li>
+                        <li><a href="Luat">Law</a></li>
+                        <li><a href="Vanhoc">Literature</a></li>
+                        <li><a href="Khoahockythuat">Science and techonology</a></li>
+                        <li><a href="Nongnghiep">Agriculture</a></li>
+                        <li><a href="lichsudialy">History of geography</a></li>
+                        <li><a href="kinhte">Economics</a></li>
+                        <li><a href="nghethuatsong">Listen to the song</a></li>
+                    </ul>
+                </div>
+                <div id="publishers">
+                    <p>BOOKS BY PUBLISHER</p>
+                    <ul type = "square">
+                        <li><a href="NXBTre">Young publisher</a></li>
+                        <li><a href="NXBThongke">Statistic Publishing House</a></li>
+                        <li><a href="Kimdong">Bronze Needle</a></li>
+                        <li><a href="DHQuocgia">National University</a></li>
+                        <li><a href="Vanhoanghethuat">Artistic craft culture</a></li>
+                        <li><a href="Vanhoa">Culture</a></li>
+                        <li><a href="laodongxahoi">Labor-Society</a></li>
+                        <li><a href="khoahockythuat">Science & Engineering</a></li>
+                    </ul>
+                </div>
+            </div>
+            </aside>
+            <section>
+                <div class="container">
+                <table class="body" border="1" cellspacing = "0">
+                    <tr>
+                        <th class="header" colspan="2">GIÁO TRÌNH TIN HỌC CƠ BẢN</th>
+                    </tr>
+                    <ul>
+                    <tr>
+                        <td  rowspan="6"><img class="photo" src="C:\Users\ADMIN\Downloads\download.jpg"></td>
+                       <td class="text"><li>Tác giả: Phạm Công Anh</li></td>
+                    </tr>
+                    <tr>
+                        <td> <li>Đồng tác giả: Lê Việt Nhân</li></td>
+                    </tr>
+                    <tr>
+                        <td><li>Hiệu đính: Hồng Phúc</li></td>
+                    </tr>
+                    <tr>
+                        <td ><li>Chủ biên: Quách Tuấn Ngọc</li></td>
+                    </tr>
+                    </ul>
+                    <tr>
+                        <td class="text">Nhà xuất bản:<a class="link" href="#">Nhà xuất bản Trẻ</a></td>
+                    </tr>
+                    <tr>
+                        <td class ="text">Chủ đề: <a class="link" href="#">Triết học-Chính trị</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                NỘI DUNG CUỐN SÁCH
+                               </button>
+                              <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                            <p>Tin Học Cơ Bản Windows XP gồm có 7 chương:</p>
+                            <p>Chương 1: Một số vấn đề cơ bản</p>
+                            <p>Chương 2: Sử dụng nhanh thanh công cụ và thanh thực đơn trong My Computer
+                                <br>và Windows Explorer.
+                            </p>
+                            <p>Chương 3: Các thao tác trong Windows XP</p>
+                            <p>Chương 4: Các thiết lập trong Windows XP</p>
+                            <p>Chương 5: Bảo trì máy tính</p>
+                            <p>Chương 6: Các phím tắt</p>
+                            <p>Chương 7: Hỏi đáp các thắc mắc</p>
+                                 </div>
+                            </div>
+                            <p>Xin trân trọng giới thiệu cuốn sách cùng bạn</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p style="text-align: right;">Giá bán:<span style="color: red;"> <b>26,000 VNĐ/CUỐN</b></span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div style="text-align: right;">
+                                <button class="datmua" type  = "submit">
+                                    <input type="image" src = "C:\Users\ADMIN\Downloads\cart2.png" alt="cart" style="width: 140px; height: 45px;" >
+                                </button>
+                        </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </section>
+            <aside id="right">
+                <div id="bestseller">
+                <p id="bo">BESTSELLER</p>
+                 <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                 <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\EnglishForTech.jpg" width="200px" height="200px">
+                 English For Tech</a></p>
+                </marquee>
+                <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                 <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\harrypotter.png" width="200px" height="200px">
+                 Harry Potter and the Deathly Hallow</a></p>
+                 </marquee>
+                 <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\Davinci.png" width="200px" height="200px">
+                The Davinci Code</a></p>
+                 </marquee>
+                 </div>
+</p>        
+                <div id="link">
+                <p id="bor">THE WEBSITE LINKS</p> 
+                <select class="box" name="links">
+                <option value="1" selected>--- Select the linking page---</option>
+                <option value="2"><a href="https://lib.eiu.edu.vn/">Library EIU</a></option>
+                <option value="3"><a href = "https://eiu.edu.vn/">Eastern Internation University</a></option>
+                </select> 
+            </div>
+            <div id="statistic">
+                <p id="bord">ACCESS STATISTICS</p>
+                <p><b>Total Access: 500</b></p>
+                <p><b>Online: 3</b></p>
+            </div>
+            </aside>
+        </article>
+    <footer style="text-align: center;">
+        <p>2016 - ABC BookStore.Allright Reserved</p>
+        <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
+        <p>Email: abcbookstore@gmail.com</p>
+    </footer>
+</body>
+</html>

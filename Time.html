@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC BookStore</title>
+    <script>
+        function displayTime() {
+            let date = new Date();
+            document.getElementById('show').innerHTML = date;
+            let time = date.toLocaleTimeString();
+            document.getElementById('clock').innerHTML = time;
+            
+            
+            let day = getDayName(date.getDay());
+            let dateNumber = date.getDate();
+            let month = getMonthName(date.getMonth());
+            let year = date.getFullYear();
+
+            let dateTime = day + ', ' + month + ' ' + dateNumber + ', ' + year;
+
+            document.getElementById('date').textContent = dateTime;
+
+            
+        }
+
+        function getDayName(day) {
+            var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            return daysOfWeek[day];
+        }
+
+        function getMonthName(month) {
+            var monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            return monthsOfYear[month];
+        }
+        setInterval(displayTime, 1000);
+    </script>
+</head>
+
+<body>
+    <p id="show"></p>
+    <p><b>Now: </b><b id="clock"></b></p>
+    <p style="color: blue;"><b>Today: </b><b id="date"></b></p>
+</body>
+</html>

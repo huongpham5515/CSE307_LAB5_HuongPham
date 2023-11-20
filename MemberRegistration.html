@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC BookStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel = "stylesheet" href = "RegistrationStyle.css">
+</head>
+<body>
+    <header>
+        <div class="img" >
+            <img src="C:\Users\ADMIN\Downloads\img_Practice3\logoABCbook.png">
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-user"></i><a href="LAB2_Problem6d.html">Log in</a>
+            <a href="Registration.html">| Registration</a>
+            <i class="fa-solid fa-cart-shopping"></i><a href="null">Cart</a>
+        </div>
+    </header>
+
+    <nav class="id">
+            <ul>
+                <li><a href = "Homepage.html"><b>HOME PAGE</b></a></li>
+                <li><a href = "Lab1_2_Problem5.html"><b>INTRODUCTION</b></a></li>
+                <li><a href="#"><b>CONTACT</b></a></li>
+                <li class="me"><p><input type="text" placeholder="Enter the title of the book">
+                    <input type = "submit" value="Find books"></p></li>
+            </ul>    
+    </nav>
+    <p>
+        <article id="body">
+            <aside id = "left">
+                <div class="asideleft">
+                <div id="subject">
+                    <p>BOOKS BY SUBJECT</p>
+                    <ul type = "square">
+                        <li><a href="Ngoai Ngu">Foreign Language</a></li>
+                        <li><a href="Congnghethongtin">Information Technology</a></li>
+                        <li><a href="Luat">Law</a></li>
+                        <li><a href="Vanhoc">Literature</a></li>
+                        <li><a href="Khoahockythuat">Science and techonology</a></li>
+                        <li><a href="Nongnghiep">Agriculture</a></li>
+                        <li><a href="lichsudialy">History of geography</a></li>
+                        <li><a href="kinhte">Economics</a></li>
+                        <li><a href="nghethuatsong">Listen to the song</a></li>
+                    </ul>
+                </div>
+                <div id="publishers">
+                    <p>BOOKS BY PUBLISHER</p>
+                    <ul type = "square">
+                        <li><a href="NXBTre">Young publisher</a></li>
+                        <li><a href="NXBThongke">Statistic Publishing House</a></li>
+                        <li><a href="Kimdong">Bronze Needle</a></li>
+                        <li><a href="DHQuocgia">National University</a></li>
+                        <li><a href="Vanhoanghethuat">Artistic craft culture</a></li>
+                        <li><a href="Vanhoa">Culture</a></li>
+                        <li><a href="laodongxahoi">Labor-Society</a></li>
+                        <li><a href="khoahockythuat">Science & Engineering</a></li>
+                    </ul>
+                </div>
+            </div>
+            </aside>
+            <section>
+                <form name = "dangky" action="#" method="post">
+                    <div class="container">
+                     <p class="title">MEMBER REGISTRATION</p>
+                     <div class="registration-box">
+                     <fieldset class="regis">
+                         <legend><b>Personal information</b></legend>
+                         <label class="label" for="fullname">Full name:</label>
+                         <input class="input" type="text" maxlength="100" required>
+                        <p> <label class="label" for="birthday">Birthday:</label>
+                         <select id="dob" name="dob">
+                             <option value="value 1" selected = "selected">1</option>
+                             <option value="value 2">2</option>
+                             <option value="value 3">3</option>
+                             <option value="value 4">4</option>
+                             <option value="value 5">5</option>
+                             <option value="value 6">6</option>
+                             <option value="value 7">7</option>
+                             <option value="value 8">8</option>
+                             <option value="value 9">9</option>
+                             <option value="value 10">10</option>
+                             <option value="value 11">11</option>
+                             <option value="value 12">12</option>
+                     </select>
+                         <label for="month">Month</label>
+                         <select name="months">
+                             <option value="value 1" selected = "selected">1</option>
+                             <option value="value 2">2</option>
+                             <option value="value 3">3</option>
+                             <option value="value 4">4</option>
+                             <option value="value 5">5</option>
+                             <option value="value 6">6</option>
+                             <option value="value 7">7</option>
+                             <option value="value 8">8</option>
+                             <option value="value 9">9</option>
+                             <option value="value 10">10</option>
+                             <option value="value 11">11</option>
+                             <option value="value 12">12</option>
+                     </select>
+                     <label for="nam">Year</label>
+                     <input type="text" name="year" maxlength="100" size="8px">
+                     </p>
+                     <p>
+                     <label class="label" for="gender">Gender:</label>
+                     <input class="input" type="radio" name="Male" value="male">Nam
+                     <input class="input"  type="radio" name="Female" value="female">Nữ
+                      </p>
+                      <p>
+                         <label class="label" for="address">Address:</label>
+                         <textarea name="address" maxlength="1000" cols="30" rows="5"></textarea>
+                     </p>
+                     <p>
+                         <label class="label" for="phonenum">Telephone:</label>
+                         <input class="input" type="text" maxlength="100" size="35px" height="15px">
+                     </p>
+                     <p>
+                         <label class="label" for="email">Email: </label>
+                        <input class="input" type="email" name="email" maxlength="100" size="35px" required>
+                     </p>
+                     </fieldset>
+                     <fieldset class="regis">
+                         <legend><b>Credentials</b></legend>
+                         <label class="label" for="Username">Username:</label>
+                         <input class="input" type="text" maxlength="100" required>
+                         <p>
+                             <label class="label" for="password">Password: </label>
+                             <input class="input" type="password" name="password" required>
+                         </p>
+                         <p>
+                             <label class="label" for="ConfirmPassword">Confirm Password: </label>
+                             <input class="input" type="password" name="passwordconfirm" required>
+                         </p>
+                     </fieldset>
+                     <center><button type="submit">Login</button>
+                     <button type="reset">Cancel</button></center>
+                    </div>
+                    </div>
+                 </form>
+            </section>
+            <aside id="right">
+                <div id="bestseller">
+                <p id="bo">BESTSELLER</p>
+                 <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                 <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\EnglishForTech.jpg" width="200px" height="200px">
+                 English For Tech</a></p>
+                </marquee>
+                <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                 <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\harrypotter.png" width="200px" height="200px">
+                 Harry Potter and the Deathly Hallow</a></p>
+                 </marquee>
+                 <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\Davinci.png" width="200px" height="200px">
+                The Davinci Code</a></p>
+                 </marquee>
+                 </div>
+</p>        
+                <div id="link">
+                <p id="bor">THE WEBSITE LINKS</p> 
+                <select class="box" name="links">
+                <option value="1" selected>--- Select the linking page---</option>
+                <option value="2"><a href="https://lib.eiu.edu.vn/">Library EIU</a></option>
+                <option value="3"><a href = "https://eiu.edu.vn/">Eastern Internation University</a></option>
+                </select> 
+            </div>
+            <div id="statistic">
+                <p id="bord">ACCESS STATISTICS</p>
+                <p><b>Total Access: 500</b></p>
+                <p><b>Online: 3</b></p>
+            </div>
+            </aside>
+        </article>
+    <footer style="text-align: center;">
+        <p>2016 - ABC BookStore.Allright Reserved</p>
+        <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
+        <p>Email: abcbookstore@gmail.com</p>
+    </footer>
+</body>
+</html>
